@@ -7,19 +7,23 @@
 //
 
 #import "Animal.h"
-
+#import "Humen.h"
 @implementation Animal
-#pragma mark - init methods
-
-#pragma mark - system delegate
-
-#pragma mark - custom delegate
-
-#pragma mark - api methods
-
-#pragma mark - event response
-
-#pragma mark - private
-
-#pragma mark - getter / setter
+#pragma mark - invoke a method from another class dynamically
++ (BOOL)resolveInstanceMethod:(SEL)sel{
+    return NO;
+}
+- (id)forwardingTargetForSelector:(SEL)aSelector{
+    return nil;
+}
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
+    if ([NSStringFromSelector(aSelector) isEqualToString:@"oldMethod"]) {
+        return [NSMethodSignature signatureWithObjCTypes:"v@:"];
+    }
+    return [super methodSignatureForSelector:aSelector];
+}
+- (void)forwardInvocation:(NSInvocation *)anInvocation{
+    Humen *humen = [Humen new];
+    [anInvocation invokeWithTarget:humen];
+}
 @end

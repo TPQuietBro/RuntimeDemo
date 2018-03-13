@@ -7,7 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+@protocol HumenDelegate<NSObject>
+- (void)testDelegate;
+@end
+@interface Humen : NSObject<HumenDelegate>
+{
+    NSString *sex;
+    NSMutableArray *hobbies;
+}
+@property(strong,nonatomic) NSString *name;
+@property(assign,nonatomic) NSInteger age;
+- (void)addHobby:(NSString *)hobby;
++ (void)repeatYourWords:(NSString *)words;
 
-@interface Humen : NSObject
 
+- (NSMutableDictionary *)allVars;
+- (NSMutableDictionary *)allPropertyies;
+- (NSMutableArray *)allMethods;
+- (NSMutableArray *)allProtocols;
+
+- (void)oldMethod;
 @end

@@ -13,6 +13,8 @@
 		AF51616420577B830001D3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF51616320577B830001D3C8 /* Assets.xcassets */; };
 		AF51616720577B830001D3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF51616520577B830001D3C8 /* LaunchScreen.storyboard */; };
 		AF51616A20577B830001D3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51616920577B830001D3C8 /* main.m */; };
+		AF51617220579C670001D3C8 /* Humen.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51617120579C670001D3C8 /* Humen.m */; };
+		AF5161752057B54C0001D3C8 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5161742057B54C0001D3C8 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AF51616620577B830001D3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF51616820577B830001D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF51616920577B830001D3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF51617020579C670001D3C8 /* Humen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Humen.h; sourceTree = "<group>"; };
+		AF51617120579C670001D3C8 /* Humen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Humen.m; sourceTree = "<group>"; wrapsLines = 0; };
+		AF5161732057B54C0001D3C8 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		AF5161742057B54C0001D3C8 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				AF51615B20577B830001D3C8 /* AppDelegate.m */,
 				AF51615D20577B830001D3C8 /* ViewController.h */,
 				AF51615E20577B830001D3C8 /* ViewController.m */,
+				AF51617020579C670001D3C8 /* Humen.h */,
+				AF51617120579C670001D3C8 /* Humen.m */,
+				AF5161732057B54C0001D3C8 /* Animal.h */,
+				AF5161742057B54C0001D3C8 /* Animal.m */,
 				AF51616020577B830001D3C8 /* Main.storyboard */,
 				AF51616320577B830001D3C8 /* Assets.xcassets */,
 				AF51616520577B830001D3C8 /* LaunchScreen.storyboard */,
@@ -144,7 +154,9 @@
 			files = (
 				AF51615F20577B830001D3C8 /* ViewController.m in Sources */,
 				AF51616A20577B830001D3C8 /* main.m in Sources */,
+				AF5161752057B54C0001D3C8 /* Animal.m in Sources */,
 				AF51615C20577B830001D3C8 /* AppDelegate.m in Sources */,
+				AF51617220579C670001D3C8 /* Humen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
