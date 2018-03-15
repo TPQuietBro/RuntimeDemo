@@ -27,4 +27,5 @@
 - (NSMutableArray *)allProtocols;
 
 - (void)oldMethod;
+
 @end

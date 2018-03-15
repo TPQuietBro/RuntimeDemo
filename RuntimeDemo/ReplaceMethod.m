@@ -24,10 +24,10 @@
 - (void)resetMethod:(SEL)aselector fromObject:(id)object{
 
     //恢复原方法
-    class_replaceMethod([object class], aselector, self.originIMP, "v@:");
+    class_replaceMethod([object class], aselector, self.originIMP, "v@:@");
 }
 
 void newMethod(id self,IMP _cmd){
-    NSLog(@"被替换了");
+    NSLog(@"当前方法被替换了");
 }
 @end
