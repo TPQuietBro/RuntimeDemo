@@ -10,6 +10,7 @@
 #import "Humen.h"
 #include <objc/message.h>
 #import "Animal.h"
+#import "ReplaceMethod.h"
 @interface ViewController ()
 
 @end
@@ -29,7 +30,16 @@
     
     //NSLog(@"%@,%@,%@,%@",[humen allVars],[humen allPropertyies],[humen allMethods],[humen allProtocols]);
     
-    [humen oldMethod];
+   // [humen oldMethod];
+    
+    ReplaceMethod *replace = [[ReplaceMethod alloc] init];
+    [replace replaceMethod:@selector(addHobby:) fromObject:humen];
+    
+   // [humen oldMethod];
+    [humen addHobby:@"table tennis"];
+    
+    [replace resetMethod:@selector(addHobby:) fromObject:humen];
+    [humen addHobby:@"table tennis"];
 //    Animal *an = [Animal new];
 //    [an performSelector:@selector(oldMethod)];
     

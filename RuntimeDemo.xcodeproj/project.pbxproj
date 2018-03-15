@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF45692A20591BAC001A2019 /* ReplaceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AF45692920591BAC001A2019 /* ReplaceMethod.m */; };
 		AF51615C20577B830001D3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51615B20577B830001D3C8 /* AppDelegate.m */; };
 		AF51615F20577B830001D3C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51615E20577B830001D3C8 /* ViewController.m */; };
 		AF51616220577B830001D3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF51616020577B830001D3C8 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF45692820591BAC001A2019 /* ReplaceMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceMethod.h; sourceTree = "<group>"; };
+		AF45692920591BAC001A2019 /* ReplaceMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMethod.m; sourceTree = "<group>"; };
 		AF51615720577B830001D3C8 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF51615A20577B830001D3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF51615B20577B830001D3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				AF51617120579C670001D3C8 /* Humen.m */,
 				AF5161732057B54C0001D3C8 /* Animal.h */,
 				AF5161742057B54C0001D3C8 /* Animal.m */,
+				AF45692820591BAC001A2019 /* ReplaceMethod.h */,
+				AF45692920591BAC001A2019 /* ReplaceMethod.m */,
 				AF51616020577B830001D3C8 /* Main.storyboard */,
 				AF51616320577B830001D3C8 /* Assets.xcassets */,
 				AF51616520577B830001D3C8 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 				AF51615F20577B830001D3C8 /* ViewController.m in Sources */,
 				AF51616A20577B830001D3C8 /* main.m in Sources */,
 				AF5161752057B54C0001D3C8 /* Animal.m in Sources */,
+				AF45692A20591BAC001A2019 /* ReplaceMethod.m in Sources */,
 				AF51615C20577B830001D3C8 /* AppDelegate.m in Sources */,
 				AF51617220579C670001D3C8 /* Humen.m in Sources */,
 			);
